@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController, UITableViewDataSource {
+    
+    var ref : DatabaseReference!
+    
     @IBOutlet weak var tableView: UITableView!
     
     var todos = [String]()
@@ -36,6 +40,14 @@ class ViewController: UIViewController, UITableViewDataSource {
                 self.todos.append(newTodo)
                 print(self.todos)
                 self.tableView.reloadData()
+                
+                self.ref = Database.database().reference()
+                // ref에 fireDatabase의 주소를 넣어줍니다.
+                // reference는 데이터베이스의 특정 위치를 나타내며, 해당 데이터베이스 위치로 데이터를 읽거나 쓸 수 있게 만들어 줍니다.
+                let itemRef = self.ref.child("list")
+                //데이터베이스의 위치(ref)의 child라고 하네요.
+                //child는 지정된 상대 경로에있는 위치의 주소를 가져오는 프로퍼티
+                itemRef.setValue(self.todos)
             }
             
         }
