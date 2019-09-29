@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB46DF9AC3C524A7FCDF1119 /* libPods-firebasePractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57380678C23AAD33D22C8940 /* libPods-firebasePractice.a */; };
+		AF04632723408D900056CF9F /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04632623408D900056CF9F /* Memo.swift */; };
 		AF082129233E9DE400D04715 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF082128233E9DE400D04715 /* GoogleService-Info.plist */; };
 		AFB06CE8233E372B003F9017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB06CE7233E372B003F9017 /* AppDelegate.swift */; };
 		AFB06CEA233E372B003F9017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB06CE9233E372B003F9017 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		0FD2FD3F87FFD47BC43D9F45 /* Pods-firebasePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasePractice.debug.xcconfig"; path = "Target Support Files/Pods-firebasePractice/Pods-firebasePractice.debug.xcconfig"; sourceTree = "<group>"; };
 		57380678C23AAD33D22C8940 /* libPods-firebasePractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebasePractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF04632623408D900056CF9F /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		AF082128233E9DE400D04715 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AFB06CE4233E372B003F9017 /* firebasePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebasePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB06CE7233E372B003F9017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				AFB06CEE233E372C003F9017 /* Assets.xcassets */,
 				AFB06CF0233E372C003F9017 /* LaunchScreen.storyboard */,
 				AFB06CF3233E372C003F9017 /* Info.plist */,
+				AF04632623408D900056CF9F /* Memo.swift */,
 			);
 			path = firebasePractice;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF04632723408D900056CF9F /* Memo.swift in Sources */,
 				AFB06CEA233E372B003F9017 /* ViewController.swift in Sources */,
 				AFB06CE8233E372B003F9017 /* AppDelegate.swift in Sources */,
 			);
